@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ce200a60-677f-4a27-a58b-03ea603f0487
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    75eee993-f504-4bab-b2a4-faaa739211ba: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Rotary news (RSS)'
+  description:
+    -
+      value: 'RSS Feed'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/rss'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 5
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:75eee993-f504-4bab-b2a4-faaa739211ba'
+  revision_translation_affected:
+    -
+      value: true

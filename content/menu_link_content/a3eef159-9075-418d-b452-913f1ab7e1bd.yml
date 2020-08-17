@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a3eef159-9075-418d-b452-913f1ab7e1bd
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    75eee993-f504-4bab-b2a4-faaa739211ba: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Stories in the Press'
+  description:
+    -
+      value: 'External press coverage'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/press'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 2
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:75eee993-f504-4bab-b2a4-faaa739211ba'
+  revision_translation_affected:
+    -
+      value: true

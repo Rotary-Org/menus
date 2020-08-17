@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2ea7bff6-1ab5-422d-a4eb-9162728b2f37
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    c87adb8a-af49-4854-ab8e-c4222f138aa2: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Speakers
+  description:
+    -
+      value: 'Recent and upcoming special guest speakers.'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 1
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:c87adb8a-af49-4854-ab8e-c4222f138aa2'
+  revision_translation_affected:
+    -
+      value: true

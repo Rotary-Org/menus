@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 0bbe1190-ecec-441b-9c39-7086b430d696
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    24f12d50-db77-4a46-b9e3-2b6ed7a20c72: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'The Rotary Foundation'
+  description:
+    -
+      value: 'How our Foundation works and its benefactors'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://www.rotary.org/en/about-rotary/rotary-foundation'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 3
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:24f12d50-db77-4a46-b9e3-2b6ed7a20c72'
+  revision_translation_affected:
+    -
+      value: true
